@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "Jimgsey",
+        "oem": "Redmi",
+        "device": "Redmi Note 10 Pro",
+        "filename": "riceDroid-12.1-202206131347-3310-v2.0-VANILLA.zip",
+        "download": "https://sourceforge.net/projects/sweet10/files/Ricedroid/Android-S/riceDroid-12.1-202206131347-3310-v2.0-VANILLA.zip/download",
+        "timestamp": 1655120627,
+        "md5": "d2509fd5e914b39570de841dff52ffb0",
+        "sha256": "072e103ee1af3fde439c32afac5a2260bd1f385e9a4d31508c5461f4a38f0745",
+        "size": 1865380342,
+        "version": "2.0",
+        "buildtype": "weekly",
+        "forum": "https://jimgsey.github.io/",
+        "gapps": "https://sourceforge.net/projects/flamegapps/files/arm64/canary/android-12.1/",
+        "firmware": "https://sourceforge.net/projects/sweet10/files/FW/",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "https://sourceforge.net/projects/sweet10/files/Recovery/",
+        "paypal": "http://paypal.me/jimgsey",
+        "telegram": "https://t.me/jimgsey",
+        "dt": "https://github.com/jimgsey",
+        "common-dt": "",
+        "kernel": "https://github.com/jimgsey"
+    }
+  ]
+}
