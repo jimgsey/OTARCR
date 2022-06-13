@@ -1,0 +1,15 @@
+====================
+     06-13-2022
+====================
+
+   * Kernel Quantum-Kyaru
+   
+   * Repo synchronized (06-13-2022) 
+   
+   * Patched Hosts (06-13-2022) 
+   
+   * Initial OTA (The rest of the updates will be notified directly)
+
+   * Delete Retromusic (It has by default)
+
+
