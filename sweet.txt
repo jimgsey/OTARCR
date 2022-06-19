@@ -1,3 +1,49 @@
+*********************************
+* Notes: Basic gapps are added. *
+*   No need to flash others     *
+*********************************
+
+
+====================
+     06-19-2022
+====================
+    
+   * Transparent QS
+   
+   * Customization QS Layout 
+   
+   * Kernel Sigma 4.14.282
+   
+   * Patched Hosts (06-19-2022) 
+   
+   * Fixed error with Gcam
+
+   * Fixed UI inconsistencies on certain apps like launcher/dialer/contacts
+   
+   * Resolved some prebuilt app crashes 
+
+   * Redesigned Dialer app 
+
+   * Redesigned Recents apps overview
+   
+   * Redesigned Game Space Panel layout  over crdroid latest changes (ram/battery views)
+
+   * Black theme support for eleven music player
+
+   * Optimized Sushi Launcher paddings based from pixel launcher
+   
+   * Introducing QuickSpace for sushi launcher
+   
+   * Added more fonts, signal and udfps icons
+
+   * Made QS Data Usage text toggleable
+   
+   * Made Per-app volume toggleable
+
+   * Performance and runtime optimizations to ensure smooth runtime and preserved some power consumption
+   
+   * Repo synchronized (06-19-2022) 
+
 ====================
      06-13-2022
 ====================
