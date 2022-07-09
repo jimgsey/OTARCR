@@ -3,6 +3,79 @@
 *   No need to flash others     *
 *********************************
 
+====================
+     07-09-2022
+====================
+   
+   * Kernel Vantom update to (06-09-2022) 
+   
+   * Patched Hosts (07-09-2022) 
+   
+   * Repo synchronized (07-09-2022) 
+   
+==== riceDroid Additions =====
+* Added new meme and one song recommendation easter egg
+* Added more UDFPS icons and made UFPS animations smoother
+* Added Verified firmware state on riceDroid device section - [xyzuan|xdroid-OSS]
+* Android-12.1.0_r11 (July security patch)
+* AOSP dashboard contextual messages  - [xyzuan|xdroid-OSS]
+* Dialer - Fixed lags and reported issues
+* Fixed and improved QS Tile Customizations [IacobIonut01|DotOS team]
+  - automatically adjust QS tile count when media player is pinned on QQS
+  - QS columns count doesnt need to rotation anymore to get applied
+* Fixed Full screen fragment (last app on the list cut-off)
+* Fonts - improved font rendering for different types of texts/font family
+* IconPacks - fixed unresolved attributes that causes random crashes
+* Gamespace - Refactored (inspired by OOS game dashboard)
+* Introducing riceDroid Pixel Variant
+- Fixed Missing features for Pixel features
+  - battery widget now shows bluetooth device levels
+  - clipboard and copy-paste now works fine
+* Introducing Vivid monet shades
+* Lockscreen shortcuts - follow light/dark theme settings
+* Redesigned Customizations and other UI/UX elements
+* Refactored renderer switch 
+ - automatically tunes renderengine threads/backends for opengl and skia renderers
+* Redesigned Volume Panel (based from p404 redesign) [P404 team]
+* Sushi Launcher - version Nigiri 
+  - updated themedicons [galahad_wpx|waifupx]
+  - updated Quickspace icons
+  - disabled blur on app launch
+
+==== RiceDroid runtime specific additions ====
+* Improved memory management and performance
+  - optimized dalvik heap configs based from OEMs (less aggressive on legacy devices)
+  - followed OEMs default tunings for max cached app processes
+* Improved refresh rate/fps history handling - [sv22|BaikalOS|arter97]
+* Attempt to improve GPU/animation rendering and improved skia blur rendering
+ - attempt to make animations smoother 
+* Attempt to reduce overall cpu usage - (cant make any claims) -[sv22|baikalOS]
+ - readjusted service priorities and utilized task profiles
+
+==== Cherry-picked features Additions ====
+* [UR]Always on Display scheduling - [idoybh|YAAP]
+* Brightness patches/fixes and Lab improvements [libxzr|Project Kaleidoscope team]
+  - Add support for strict standby policy 
+  - Add force background freezer 
+  - Add preference for resetting auto brightness adjustment
+* Crdroid Upstream Changes -[neobuddy89|crdroid Team]
+  - Added qs tile animation styles
+  - Added qs tile animation interpolator
+  - Applied patches from crdroid's repositories
+* [MR]Erofs support - [AOSPA]
+* Introducing App Security  - [jhonboy121|AOSP-krypton]
+- [UR]Better Applock Implementation
+- hidden app feature now guarded (Settings->Security->App Security)
+* Improved and fixed refresh rate tile [nullxception|jhonboy121|mikeNG|ShapeShiftOS]
+* Toggle for Wallpaper Zoom animation - [meganukebmp|EvolutionX]
+  
+==== Cherry-picked runtime specific additions ====
+* [MR]BurnIn protection from pixelexperience - [arter97|PixelExperience]
+* [UR]Fixed screen-on timeout issues on some devices [lineageOS]
+* Improved opengl/skia blur rendering - [kdrag0n|ProtonAOSP]
+* [UR]UDFPS: Night Light Disable [elpaablo]
+
+PS: if we missed some credits please let us know! Have a nice day.
 
 ====================
      06-19-2022
