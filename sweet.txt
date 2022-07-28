@@ -1,8 +1,251 @@
 *********************************
-* Notes: Basic gapps are added. *
+* Notes: Basic gapps are added* *
 *   No need to flash others     *
 *********************************
 
+*Remember: if you use the daily build, you already have all these changes. This very long changelog is for those people who install only the OTA. They are all the changes since the last OTA.
+
+====================
+     07-28-2022
+====================
+   
+   * Kernel Vantom update to (21-09-2022) 
+   
+   * Not more patch hosts. If you like it see here (https://telegra.ph/Block-ads-07-15) Not need root or apps.
+   
+   * Repo synchronized (07-28-2022) 
+   
+   * Added F2FS compression
+   
+   * Fixed Google Recorder
+   
+   * Removed Dolby Atmos
+   
+   * Some other audio changes
+   
+   * SEPolicy fixes
+   
+   * LiveDisplay fixes
+   
+   * Miuicamera fixes for night mode
+   
+   * Fixed preference card icons tint
+
+   * Fixed All apps scrim color
+
+   * Added shadow to text views of QuickSpace
+   
+   * Fixed work profile paddings
+
+   * Moved blur customization to misc preference
+
+   * Added restart tips to home screen preference
+
+   * Completely disabled blur on app launch
+
+   * Always enabled surfaceflinger early wake-up
+
+   * Stopped applying disabled Alpha attribute to search hint
+
+   * Revamped Overview Actions and style
+
+   * Don't always show screenshots option in task menu
+
+   * Limited maximum opacity to 80% for recents app view
+
+   * Reworked QSB hotseat colors
+
+   * Linked hotseat bg corner radius to dialogCornerRadius attribute
+   
+   * Relaxed memory info status updates
+
+   * Added a toggle to show/hide app drawer search bar
+
+   * Added a toggle to enable scroll vibration
+
+   * Added kill App button to recents overview
+
+   * Added Overview buttons placement customizations
+
+   * Added option for forced white app label
+
+   * Added toggle for memory info view
+
+   * Added toggles for recent quick actions
+
+Dialer:
+
+   * Applied material design to call log cards
+
+   * Fixed swapped empty illustration drawables
+
+Game Space:
+
+   * Fixed panel view not losing focus when touching outside
+
+   * Fixed default ringer mode value
+
+   * Added do not change option to ringer mode
+   
+   * Imported gamespace-themed icon
+
+   * Resort ringer mode in game space
+
+System:
+
+   * Use config_bodyFontFamilyMedium for QS Clock
+
+   * Used pixel wars as body font to fix all CAPS issues on nothing dot font
+
+   * Fixed overlapping on some Custom Fonts
+
+   * Added a Headline-only version of nothing font overlay
+
+   * Dynamically change clock color when using nothing font
+
+   * Convert hotspot timeout preference to a list preference in Settings
+
+   * Added a preference to the battery Optimization page in Settings
+
+   * Added Back Raven Pixel 6 Pro Fingerprint
+
+   * Enabled System Level Blur
+
+   * Added navigation handle dimensions from Android 13 Beta 3
+
+   * Included Anx Camera (Beta) [thanks to kota]
+
+   * Updated OPWidget to v2*0*9
+
+   * Reduced QS Tiles margin
+
+   * Linked auto brightness background to corner radius
+
+   * Exposed brightness slider tunables for theming
+
+   * Implemented Clear Speaker feature
+
+   * Improved System Smoothness, Stability & reliability
+
+   * Fixed issues with Safetynet Pass
+
+   * Fixed Issues with some Instagram Stories not loading
+
+   * Updated notification count overlay
+
+   * Turn camera xiaomi so's thread pool shrink into nop
+
+   * Added an overlay for notch bar killer in Dev Settings
+
+   * Improved Hiding magisk
+
+   * Added battery stats reset
+
+   * Added new boot animation
+
+   * Much more under-the-hood optimizations
+
+riceDroid Settings:
+
+   * Introduced System Shapes Customization
+
+   * Added pixelwars font
+
+   * Improved Nothing Font Overlays
+
+   * Use config_headline FontFamily for font sample
+
+   * Updated QS tile count preference to dotos qs tile count preference
+   
+   - Optimized  preference loading, the following customizations doesnt need launcher restart anymore
+   
+   *At a glance (if stucked just toggle the switch instead of dark/light theme toggle)
+   
+   * Launcher blur radius
+   
+   * Vibration toggle
+   
+   * Force white labels
+   
+   * Search bar accented colors
+   
+   * Hide statusbar
+   
+   * Hotseat background
+   
+   * App drawer searchbar
+   
+   
+   
+===== Start of Changelog for version 3*5 =====
+
+==== riceDroid Additions =====
+SYSTEM:
+* [UR]Added Product Sans VH - [Twelvetican]
+* Applied color accent to clear all notification button icon
+* Fixed Quicksettings force close when editing tiles
+* fonts - fixed custom-inter font [nullxception|Derpfest team]
+  - improved nothing font overlay 
+  - use pixelwars as body font to fix all CAPS issue on ndot font - [Salmon bhoi|nongthaihoang|TheSc1enceGuy]
+* Lockscreen clock improvements 
+   - fixed overlapping on some custom fonts [ghostrider-reborn]
+   - dynamically changet clock color when using ndot font
+   - Optimized Large Clock paddings
+* More accurate device name at least for devices like OnePlus
+* Revised and redesigned p404 panel for rice needs  [p404|p404 team]
+  - spaces for different button now hides when view isnt visible
+  - placed sound mode icons above volume slider
+  - redesigned media output button view and optimized spaces
+* Lab: replaced skia vulkan with skiagl for compatiblity accross devices like MTK
+* Revamped lockscreen buttons
+* Show both sizzle and android 12l on android version
+* StatusBar Logo - added rice and peach logos
+
+APPS:
+* Backgrounds: Added previous rice wallpapers
+* Dialer - improved dialer and color palettes
+   -  Redesign dialpad background [color597|Project Kaleidoscope Team]
+* SushiLauncher - Minor redesign of recents app view, inspired by OneUI
+  - Added an option to allow users to customize blur radius
+  - Applied monet shades to all apps label and background view
+  - Launcher improvements from crDroid Home - [neobuddy89|crdroid android]
+    - All apps background opacity customization
+    - Recents app view opacity customization
+    - Recents activity preference 
+  - [REAPPLY]: SushiLauncher3: Implement hidden & protected apps - [bvlj|lineageOS]
+  - [REAPPLY]: Launcher3: Improve hidden & protected apps - [neobuddy89|crdroid android]
+ - updated DGIcons to Miko preview 1 [galahad_wpx|waifupx]
+
+==== RiceDroid runtime specific additions ====
+* Attempt to improve overall usage by modifying sched profiles, policy, priority and cpusets
+* Attempt to improve UI performance and rendering by optimizing surfaceflinger and display composer/allocator
+* Configured default lmkd and other memory management parameters
+* Optimized some stuffs that causes lags on QuickSettings
+* Performance improvements from baikalOS [sv22|baikalOS] 
+* Ported memory optimizations from CAF/CLO
+* Upstream for lz4, libfuse, drm hwcomposer, bionic and other android runtime properties
+
+==== Cherry-picked features Additions ====
+* Add Asus VoLTE Icon
+* App lock fixes - [jhonboy121|FlamingoOS]
+* base: ChooserActivity: Don't show image edit button on multiple targets [theimpulson]
+* base: Prevent NPE for Demo mode [markakash|p404 team]
+* [UR]build: Set DISABLE_ARTIFACT_PATH_REQUIREMENTS to true - [spezi77|Pixel Dust Project]
+* CastTile - Open cast settings on long click [idoybh|YAAP]
+* DeviceIdleJobsController: don't ignore whitelisted system apps - [muhomorr|grapheneOS]
+* [MR]FooterActions: Add haptic click when long pressing settings icon 
+* fixup! SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model - [ghostrider-reborn]
+* [UR]Legacy WFD output video [DennySPB|SyberiaOS]
+* MediaArtwork: better fade filter and encapsulate artwork settings in a data class - [jhonboy121|FlamingoOS]
+* Upstream changes from crDroidandroid -[neobuddy89|crdroid Team]
+* Settings: Convert hotspot timeout preference to a list preference - [jhonboy121|FlamingoOS]
+* Settings: Add a preference to battery optimization page  - [jhonboy121|FlamingoOS]
+* Upstream changes from lineageOS -[lineageOS Team]
+
+===== End of Changelog for version 3*5 =====
+   
+
+   
 ====================
      07-09-2022
 ====================
@@ -17,7 +260,7 @@
 * Added new meme and one song recommendation easter egg
 * Added more UDFPS icons and made UFPS animations smoother
 * Added Verified firmware state on riceDroid device section - [xyzuan|xdroid-OSS]
-* Android-12.1.0_r11 (July security patch)
+* Android-12*1*0_r11 (July security patch)
 * AOSP dashboard contextual messages  - [xyzuan|xdroid-OSS]
 * Dialer - Fixed lags and reported issues
 * Fixed and improved QS Tile Customizations [IacobIonut01|DotOS team]
@@ -75,7 +318,7 @@
 * Improved opengl/skia blur rendering - [kdrag0n|ProtonAOSP]
 * [UR]UDFPS: Night Light Disable [elpaablo]
 
-PS: if we missed some credits please let us know! Have a nice day.
+PS: if we missed some credits please let us know! Have a nice day*
 
 ====================
      06-19-2022
@@ -85,7 +328,7 @@ PS: if we missed some credits please let us know! Have a nice day.
    
    * Customization QS Layout 
    
-   * Kernel Sigma 4.14.282
+   * Kernel Sigma 4*14*282
    
    * Patched Hosts (06-19-2022) 
    
