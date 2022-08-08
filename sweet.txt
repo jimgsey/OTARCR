@@ -3,7 +3,73 @@
 *   No need to flash others     *
 *********************************
 
-*Remember: if you use the daily build, you already have all these changes. This very long changelog is for those people who install only the OTA. They are all the changes since the last OTA.
+====================
+     08-08-2022
+====================
+
+   * Kernel Vantom update to v211 (Upstreamed kernel to 4.14.290)
+   
+   * Added Kprofiles
+   
+   * miuicamera: Update from MIUI V13.0.12.0.SKFMIXM
+   
+   * Upstreamed with PixelExperience source
+
+   * Update blobs from sweet V13.0.12.0.SKFMIXM
+
+   * Fixed some RAM-related issues
+   
+   * Few changes regarding vibration
+
+   * Merged CLO tag LA.UM.9.1.r1-12100.01-SMxxx0.QSSI13.0
+
+   * Various other misc
+   
+   * Repo synchronized (08-08-2022) 
+
+==== riceDroid Additions ===== changes we did or modified
+
+   * [MD]Added and simplified QS System Info [ZeNiXxX|eyosen]
+   
+   * August Security patch android-12.1.0_r22
+   
+   * Configured background and phantom processes limit
+   
+   * Dialer: sync color palettes with google material you 
+   
+   * Fonts: fixed broken fonts and lockscreen clock
+   
+   * Improved QS Customization 
+   
+  	- now shows 2 rows for 3 column tiles
+  	- less buggy transition when switching orientations
+  
+   * [MD]Improved System Shapes
+   
+ 	 - Implemented Brightness Slider Changes 
+ 	 - Implement qs tile radius changes
+ 	 - Added Samsung icon mask to rice shapes [teamfiles] 
+ 	 - Outline Shapes - from Corvus AOSP [StarkDroid]
+   * [AOSP]More AOSP bugfixes from AOSP gerrit
+   
+   * [AOSP]Reverted runtime patches that caused audio delays and performance regressions
+   
+   * Reworked QS Panel layout
+   
+   * SushiLauncher - Temaki (v4.5)
+   
+        - At a glance: minor code cleanup 
+        - Light/dark mode support for taskbar background
+        - Fixed random taskbar height bug issue
+  	- Finally fixed work profile paddings
+        - [CP]add support for custom themed icon packs [jhonboy121]
+  	- [CP]prevent some crashes on recents app view [jhonboy121]
+ 	- [CP]Re-added x8 x10 workspaces [PacMM79]
+  
+   * Updated tinyalsa from AOSP master
+   
+   * Vivid Monet Shades: Restored pitch dark colors
+
 
 ====================
      07-28-2022
